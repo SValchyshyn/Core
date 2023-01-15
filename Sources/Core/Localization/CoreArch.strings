@@ -1,0 +1,6 @@
+/* See less button in the Help screen */
+"list_item_seemore_close" = "See fewer";
+
+/* See more button in the Help screen */
+"list_item_seemore_open" = "See more";
+

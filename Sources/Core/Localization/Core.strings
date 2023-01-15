@@ -1,0 +1,388 @@
+"button_add" = "Add";
+
+/* Accept terms and conditions button */
+"button_agree" = "Accept";
+
+"button_cancel" = "Cancel";
+
+/* General 'Cancel' text */
+"button_cancel_annuller" = "Cancel";
+
+/* General 'Close' text */
+"button_close" = "Close";
+
+"button_continue" = "Continue";
+
+/* Decline terms and conditions button */
+"button_deny" = "Reject";
+
+/* Abort cancel payment button text */
+"button_no" = "No";
+
+/* General OK text */
+"button_ok" = "OK";
+
+/* Button for Offer activation confirumation alert. */
+"button_ok_sounds_good" = "OK that sounds good";
+
+/* Go to location settings title */
+"button_open_settings" = "Go to settings";
+
+/* An action for trying again right away */
+"button_retry" = "Try again";
+
+/* Gift Unwrapping screen ~ new design ~ Voucher preview screen, button at the bottom of the page. */
+"button_see_more" = "See more details";
+
+/* Confirm cancel payment button text */
+"button_yes" = "Yes";
+
+/* Text for CTA button */
+"button_yes_thanks" = "Yes please";
+
+/* 'day' the '5.January' at '12:34'. */
+"dt_past_date" = "EEE' the 'd'.'MMM' at 'HH.mm'";
+
+/* String for RFC3339 dates without seconds */
+"dt_timestamp_date" = "d.''MMM' 'yyyy' at 'HH:mm' o'clock";
+
+/* Payment server error message - the food account is blocked */
+"error_blocked_pin_body" = "Because you entered an incorrect PIN too many times, you must change it for security reasons to continue. You change your PIN code under \ 'Your \ means of payment ' in the app 's main menu.";
+
+/* Payment server error title - the food account is blocked */
+"error_blocked_pin_title" = "PIN has been entered incorrectly too many times";
+
+/* Cound not update PIN code error message */
+"error_change_pin_code_update_failed_body" = "Could not update pin, please try again later";
+
+"error_change_pin_code_update_failed_title" = "Error";
+
+/* Payment server error message - transaction is already completed */
+"error_cpp_api_10_body" = "Your transaction has already been completed. Ask the cashier for help if you want to cancel anyway.";
+
+"error_cpp_api_10_title" = "Error";
+
+/* Payment server error message - the user has too many card */
+"error_cpp_api_100_body" = "There are too many payment cards registered.";
+
+"error_cpp_api_100_title" = "Error";
+
+"error_cpp_api_1000_body" = "Payment is not possible with the associated debit card. \nReplace the debit card or pay otherwise.";
+
+"error_cpp_api_1000_title" = "Payment not possible";
+
+/* Payment server error message - temporary member */
+"error_cpp_api_101_body" = "The payment card is already in use and therefore cannot be used.";
+
+"error_cpp_api_101_title" = "Error";
+
+/* Payment server error message - trying to remove credit card with active credit */
+"error_cpp_api_117_body" = "You cannot remove your debit card because you have an active credit in your Prime account. You can freely replace your associated debit card. \n\nIf you wish to remove your debit card, you must repay your credit. You do this under the menu item ‘Get credit on PrimeKonto’ in the menu on Prime account.";
+
+/* Payment server error title - trying to remove credit card with active credit */
+"error_cpp_api_117_title" = "You can not remove your debit card";
+
+/* Payment server error message - trying to remove credit card with active Prime subscription */
+"error_cpp_api_118_body" = "You cannot remove your debit card because you have an automatic transfer to your Prime account. You can freely replace your associated debit card. \n\nIf you wish to remove your debit card, you must stop your automatic transfer to Prime account. You do this under ‘Change monthly amount & benefits ’in Prime account.";
+
+/* Payment server error title - trying to remove credit card with active Prime subscription */
+"error_cpp_api_118_title" = "You can not remove your debit card";
+
+/* Payment server error message - POS is used by another mebmer */
+"error_cpp_api_15_body" = "Hey, another membership number is already registered at checkout. Tell the cashier if it is a mistake.";
+
+"error_cpp_api_15_title" = "Error";
+
+/* Payment server error message - invalid amount */
+"error_cpp_api_152_body" = "Wrong amount.";
+
+"error_cpp_api_152_title" = "Error";
+
+/* Payment server error message - invalid payment ID */
+"error_cpp_api_17_body" = "Oops, a mistake was made. Sorry for the inconvenience.";
+
+"error_cpp_api_17_title" = "Error";
+
+/* Payment server error message - payment is already confirmed */
+"error_cpp_api_19_body" = "Payment has already been completed.";
+
+"error_cpp_api_19_title" = "Error";
+
+/* Payment server error message - PIN code is required */
+"error_cpp_api_20_body" = "PIN code must be entered";
+
+"error_cpp_api_20_title" = "Error";
+
+/* Payment server error message - bonus is disabled */
+"error_cpp_api_21_body" = "Hey, you can not pay with bonus right now. Pay instead with a debit card or cash.";
+
+"error_cpp_api_21_title" = "Error";
+
+/* Payment server error message - temporary member */
+"error_cpp_api_22_body" = "You have a temporary membership and therefore cannot pay with a bonus";
+
+"error_cpp_api_22_title" = "Error";
+
+/* Payment server error message - not stamps campaign at the moment */
+"error_cpp_api_23_body" = "There is currently no collective bargaining campaign.";
+
+"error_cpp_api_23_title" = "Error";
+
+/* Payment server error message - stamps cannot be used at the moment */
+"error_cpp_api_24_body" = "Collectibles cannot be used at this time.";
+
+"error_cpp_api_24_title" = "Error";
+
+/* Payment server error message - user not found */
+"error_cpp_api_49_body" = "User not found";
+
+"error_cpp_api_49_title" = "Error";
+
+/* Payment server error message - invalid parameters */
+"error_cpp_api_50_body" = "Oops, the box and your mobile can not get in touch with each other. Use your physical membership card instead.";
+
+"error_cpp_api_50_title" = "Error";
+
+/* Payment server error message - general error */
+"error_cpp_api_500_body" = "Oops, a mistake was made. Sorry for the inconvenience.";
+
+"error_cpp_api_500_title" = "Error";
+
+/* Payment server error message - it takes too long to complete the action */
+"error_cpp_api_504_body" = "It took too long. Please try again later.";
+
+"error_cpp_api_504_title" = "Error";
+
+/* Payment server error message - invalid QR code */
+"error_cpp_api_58_body" = "Please try again, and if it still does not work, you can give the cashier your phone or membership number. Then your membership benefits are taken into account.";
+
+/* Payment server error title - invalid QR code */
+"error_cpp_api_58_title" = "Hey, there's something wrong with the QR code";
+
+"error_cpp_api_801_body" = "Have you completed the Mobilepay transaction correctly?";
+
+"error_cpp_api_801_title" = "Error";
+
+/* Payment server error message - transaction not found */
+"error_cpp_api_9_body" = "Transaction not found";
+
+"error_cpp_api_9_title" = "Error";
+
+/* Payment server error message - another enrollment is in progress */
+"error_cpp_api_900_body" = "Oops, a mistake was made. Please try again later.";
+
+"error_cpp_api_900_title" = "Error";
+
+/* Payment server error message - access denied */
+"error_cpp_api_93_body" = "Access not allowed";
+
+"error_cpp_api_93_title" = "Error";
+
+/* Payment server error message - trying to top-up with the same amount */
+"error_cpp_api_duplicate_transaction_body" = "You have attempted to transfer an amount too quickly after your most recent transfer. Please try again later.";
+
+/* Payment server error title - trying to top-up with the same amount */
+"error_cpp_api_duplicate_transaction_title" = "You're too fast";
+
+/* Alert message when adding payment card fails */
+"error_credit_card_add_body" = "Contact Member Service on 43 86 20 20.";
+
+/* Alert title when adding payment card fails */
+"error_credit_card_add_title" = "Unable to add card";
+
+/* Top Up NemID status message when customer is on negative list */
+"error_enrollment_blacklisted_body" = "Unfortunately, we cannot offer you a credit on Prime accunt, as you do not meet our credit requirements. Contact Member Services on tel.  43 86 20 20 if you have any questions.";
+
+/* Top Up NemID status title when customer is on negative list */
+"error_enrollment_blacklisted_title" = "You can not get credit";
+
+/* Top Up NemID status message when customer has a credit warning */
+"error_enrollment_credit_warning_body" = "Unfortunately, we cannot offer you a Prime account or a credit on Prime account, as you have registered a credit alert on your CPR number. Read more about how the credit alert can be removed on borger.dk. Once the warning is removed, you can return and complete the creation of Prime account.";
+
+/* Top Up NemID status title when customer has a credit warning */
+"error_enrollment_credit_warning_title" = "You have a credit alert";
+
+"error_enrollment_deceased_body" = "Unfortunately, we cannot offer you Prime account or a credit on Prime account, as your CPR number cannot be validated. Contact Member Services on tel.  43 86 20 20 for more information.";
+
+"error_enrollment_deceased_title" = "CPR number cannot be validated";
+
+/* Top Up NemID status message when customer is in high risk segment */
+"error_enrollment_high_risk_body" = "Unfortunately, we cannot offer you a credit on Prime account, as you do not meet our credit requirements. You are welcome to apply again at a later date.";
+
+"error_enrollment_high_risk_title" = "You can not get a credit";
+
+"error_enrollment_legal_incapacity_body" = "Unfortunately, we cannot offer you Prime account or a credit on Prime account, as your CPR number cannot be validated. Contact Member Services on tel.  43 86 20 20 for more information.";
+
+"error_enrollment_legal_incapacity_title" = "CPR number cannot be validated";
+
+"error_enrollment_missing_person_body" = "Unfortunately, we cannot offer you Prime account or a credit on Prime account, as your CPR number cannot be validated. Contact Member Services on tel.  43 86 20 20 for more information.";
+
+"error_enrollment_missing_person_title" = "CPR number cannot be validated";
+
+/* Top Up NemID status message when address is missing */
+"error_enrollment_no_address_body" = "Unfortunately, we can not offer you Prime account or a credit on Prime account, as it is a requirement that you have permanent residence in Denmark and are listed in the CPR register.";
+
+/* Top Up NemID status title when address is missing */
+"error_enrollment_no_address_title" = "You have no permanent residence registered";
+
+/* Top Up NemID status message when address is outside DK */
+"error_enrollment_not_resident_body" = "Unfortunately, we can not offer you Prime account or a credit on Prime account, as it is a requirement that you reside in Denmark and are listed in the CPR register.";
+
+/* Top Up NemID status title when address is outside DK */
+"error_enrollment_not_resident_title" = "You do not reside in Denmark";
+
+/* Top Up NemID status message. Generel dismissal text used for a number of cases. */
+"error_enrollment_not_verified_body" = "Unfortunately, we cannot offer you Prime account or a credit on Prime account, as your CPR number cannot be validated. Contact Member Services on tel.  43 86 20 20 for more information.";
+
+/* Top Up NemID status title. Generel dismissal text used for a number of cases. */
+"error_enrollment_not_verified_title" = "CPR number cannot be validated";
+
+/* Top Up NemID status message when customer has protected address */
+"error_enrollment_protected_address_body" = "We can see that you have name and address protection. We therefore need you to register and submit identification via this form to get Prime account.";
+
+/* Account tab. FA hidden address sumbit identification button title. */
+"error_enrollment_protected_address_confirm_action" = "Submit identification";
+
+/* Top Up NemID status title when customer has protected address */
+"error_enrollment_protected_address_title" = "Protected name and address";
+
+/* Top Up NemID status message when customer is registered in RKI */
+"error_enrollment_rki_body" = "Unfortunately, we cannot offer you a credit on Prime account, as you are registered in RKI.";
+
+"error_enrollment_rki_title" = "You can not get a credit";
+
+/* Top Up NemID status message when technical error occured */
+"error_enrollment_undefined_body" = "We are very sorry. Please try again. If you still experience errors, contact Member Service on tel.  43 86 20 20.";
+
+"error_enrollment_undefined_title" = "An error occurred";
+
+/* Top Up NemID status message when customer is under 18 of age */
+"error_enrollment_under_aged_body" = "Unfortunately, we cannot offer you Prime account or a credit on Prime account, as you must be 18 years of age to access these products..";
+
+/* Top Up NemID status title when customer is under 18 of age */
+"error_enrollment_under_aged_title" = "You are under 18 years old";
+
+/* Fraud Insert 12 Months Limit error message */
+"error_fraud_12_month_limit_body" = "You have reached the limit of how much you can deposit into your Prime Account. \n\nThe money you have left in your Prime Account can still be used to trade.";
+
+/* Fraud Insert 12 Months Limit error title */
+"error_fraud_12_month_limit_title" = "Deposit limit reached";
+
+"error_fraud_attempt_body" = "We have locked your account to protect you against abuse and fraud. Please contact customer service";
+
+/* Fraud attempt error title */
+"error_fraud_attempt_title" = "The account is locked for payment and credit";
+
+/* Fraud Insert Daily Limit error message */
+"error_fraud_daily_limit_body" = "You have reached the daily limit for how much you can deposit into your Prime account. Tomorrow you can deposit money into your Prime Account again. \n\nThe money you have left in your Prime Account can still be used to trade.";
+
+/* Fraud Insert Daily Limit error title */
+"error_fraud_daily_limit_title" = "Daily deposit limit reached";
+
+/* Fraud Max Account Balance Limit error message */
+"error_fraud_max_balance_limit_body" = "You have reached the limit of how much money you can have left in your Prime Account. When the balance is lower, you can put money back into the account. \n\nThe money you have left in your Prime Account can still be used to trade.";
+
+/* Fraud Max Account Balance Limit error title */
+"error_fraud_max_balance_limit_title" = "Maximum balance on Prime account reached";
+
+/* Payment server error message - limit exceeded */
+"error_fraud_max_daily_spending_body" = "You have reached the daily limit for how much money you can trade for with the app. Tomorrow you can again use your app to trade with. If you shop at Coop MAD in the app, you can go to Coop MAD's website and complete your order.";
+
+/* Payment server error title - limit exceeded */
+"error_fraud_max_daily_spending_title" = "Your amount limit has been reached";
+
+/* General alert body for "Error occurred" */
+"error_generic_action_body" = "Please try to restart the app or come back later";
+
+/* General alert title for "Error occurred" */
+"error_generic_action_title" = "An error occurred";
+
+/* General alert body for server related error */
+"error_generic_data_load_body" = "We were unable to receive the needed information. Please try and restart your app";
+
+/* General alert title for server related error */
+"error_generic_data_load_title" = "Information missing";
+
+"error_generic_server_fail_title" = "Server error";
+
+"error_generic_title" = "Error";
+
+"error_internet_connection_missing_login_body" = "It requires internet to be able to log in.";
+
+"error_internet_connection_missing_payment_start_body" = "It requires internet to scan your membership card.";
+
+"error_internet_connection_missing_title" = "No internet";
+
+/* Payment server error message - wrong PIN code */
+"error_invalid_pin_body" = "Enter the correct PIN code. If you have forgotten it, you can change it under 'Your Payment Means' in the app's main menu.";
+
+/* Payment server error title - wrong PIN code */
+"error_invalid_pin_title" = "The PIN code is incorrect";
+
+/* No internet connection alert message */
+"error_network_unavailable_body" = "You need to be connected to the internet in order to use the functionalities in the app";
+
+/* No internet alert title */
+"error_network_unavailable_title" = "The app has no connection to the internet";
+
+/* Payment server error message - payment is already canceled */
+"error_payment_already_canceled_body" = "Unfortunately, your purchase was canceled before you had time to approve it on your mobile. Start over with your payment to pay with the app.";
+
+/* Payment server error title - payment is already canceled */
+"error_payment_already_canceled_title" = "Your purchase has not been completed";
+
+/* Payment server error message - failed payment */
+"error_payment_card_expired_body" = "We could not process your payment due to expired card, you can add a new card under payments in the menu";
+
+/* Payment server error title - failed payment */
+"error_payment_card_expired_title" = "Payment Card expired";
+
+/* Payment server error message - payment card not found */
+"error_payment_card_not_found_body" = "We were unable to withdraw money from your card, please add another card under payments in the menu";
+
+"error_payment_card_not_found_title" = "Payment card not found";
+
+/* Payment server error message - current balance is not enough */
+"error_payment_failed_body" = "Unfortunately, it seems that there is something wrong with your payment card, or that you do not have enough money available through the various payment options in the app. Therefore, you can not pay with the app right now. Deposit more money or choose another means of payment.";
+
+/* Payment server error title - current balance is not enough */
+"error_payment_failed_title" = "Sadly you cannot pay with the app right now";
+
+/* Other error message when trying to confirm payment */
+"error_payment_timeout_body" = "An error occurred. \ nTry again or contact Member Service on 43 86 20 20 if the error persists.";
+
+/* Settings button title for QR scanner page (version 2) */
+"error_permission_camera_action" = "Go to settings";
+
+/* Camera permissions text for QR scanner page (version 2) */
+"error_permission_camera_denied_title" = "The app lacks permission to use the camera";
+
+"error_server_unavailable_body" = "There was an error. Please try again otherwise come back later.";
+
+"error_server_unavailable_title" = "Server error";
+
+/* TopUp is pending error message */
+"error_topup_pending_body" = "You can not top up your account right now because we're still completing your most recent replenishment. It goes a little slower than usual. We apologize for the inconvenience. \n\nIf your most recent refill does not go through or the waiting time becomes too long, please contact Member Services on tel.  43 86 20 20";
+
+/* TopUp is pending error title */
+"error_topup_pending_title" = "Your account is already replenished";
+
+/* Label for showing the transaction amount. The placeholder is the amount */
+"format_amount" = "%@ stk.";
+
+"format_price_splash" = "%.0f";
+
+/* New data available message ~ Legacy, should be fixed at some point. */
+"gen_new_data_available" = "New article";
+
+/* Message for alert when old datat is currently shown and the action cannot be completed */
+"gen_old_data_alert_message" = "The app shows cached data. Return to the frontpage and try again";
+
+/* Title for alert when old datat is currently shown and the action cannot be completed */
+"gen_old_data_alert_title" = "Show saved data";
+
+/* Default prompt for "See more" in error alerts. */
+"gen_see_more_prompt" = "(See error...)";
+
+"or" = "Or";
+
