@@ -9,18 +9,18 @@ private class BundleFinder {}
 
 extension Foundation.Bundle {
     /// Since Core is a framework, the bundle containing the resources is copied into the final product.
-    static var module: Bundle = {
+    static var Core: Bundle = {
         return Bundle(for: BundleFinder.self)
     }()
 }
 
 // MARK: - Objective-C Bundle Accessor
 
-@objc
-public class CoreResources: NSObject {
-   @objc public class var bundle: Bundle {
-         return .module
-   }
-}
+//@objc
+//public class CoreResources: NSObject {
+//   @objc public class var bundle: Bundle {
+//         return .module
+//   }
+//}
 // swiftlint:enable all
 // swiftformat:enable all

@@ -12,7 +12,7 @@ private class BundleFinder {}
 @objc
 public class CoreTestsResources: NSObject {
    @objc public class var bundle: Bundle {
-         return .module
+         return .Core
    }
 }
 // swiftlint:enable all

@@ -19,7 +19,7 @@ import Foundation
 ///   the localized string is presented to the user.
 ///   - args: Used to fill in the placeholders defines in the localization.
 public func CoreLocalizedString(_ key: String, comment: String = "", _ args: CVarArg...) -> String {
-	ModuleLocalizedString(key, comment: comment, args, tableName: "Core", module: .module)
+	ModuleLocalizedString(key, comment: comment, args, tableName: "Core", module: .Core)
 }
 
 // swiftlint:disable identifier_name
@@ -33,5 +33,5 @@ public func CoreLocalizedString(_ key: String, comment: String = "", _ args: CVa
 ///   the localized string is presented to the user.
 ///   - args: Used to fill in the placeholders defines in the localization.
 public func CoreArchLocalizedString(_ key: String, comment: String = "", _ args: CVarArg...) -> String {
-	ModuleLocalizedString(key, comment: comment, args, tableName: "CoreArch", module: .module)
+	ModuleLocalizedString(key, comment: comment, args, tableName: "CoreArch", module: .Core)
 }
