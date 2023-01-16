@@ -20,5 +20,5 @@ import Core
 ///   the localized string is presented to the user.
 ///   - args: Used to fill in the placeholders defines in the localization.
 public func BiometricLocalizedString(_ key: String, comment: String = "", _ args: CVarArg...) -> String {
-	ModuleLocalizedString(key, comment: comment, args, tableName: "Biometric", module: .module)
+	ModuleLocalizedString(key, comment: comment, args, tableName: "Biometric", module: .CoopCoreModule)
 }

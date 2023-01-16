@@ -44,7 +44,7 @@ import UIKit
 	}
 	
 	private func configureImageView() {
-		imageView.image = UIImage(named: "checkmark", in: .module, compatibleWith: nil)
+		imageView.image = UIImage(named: "checkmark", in: .CoreUIModule, compatibleWith: nil)
 		imageView.tintColor = .white
 		
 		addSubview(imageView)

@@ -42,7 +42,7 @@ public struct CoreUserInterfaceImages {
   #endif
 
   public var image: Image {
-    let bundle = CoreUserInterfaceResources.bundle
+	  let bundle = Bundle.CoreUIModule
     #if os(iOS) || os(tvOS)
     let image = Image(named: name, in: bundle, compatibleWith: nil)
     #elseif os(macOS)
@@ -62,7 +62,7 @@ public extension CoreUserInterfaceImages.Image {
     message: "This initializer is unsafe on macOS, please use the CoreUserInterfaceImages.image property")
   convenience init?(asset: CoreUserInterfaceImages) {
     #if os(iOS) || os(tvOS)
-    let bundle = CoreUserInterfaceResources.bundle
+    let bundle = Bundle.CoreUIModule
     self.init(named: asset.name, in: bundle, compatibleWith: nil)
     #elseif os(macOS)
     self.init(named: NSImage.Name(asset.name))

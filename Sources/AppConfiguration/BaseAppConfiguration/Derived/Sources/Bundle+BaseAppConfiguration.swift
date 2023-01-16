@@ -16,11 +16,11 @@ extension Foundation.Bundle {
 
 // MARK: - Objective-C Bundle Accessor
 
-@objc
-public class BaseAppConfigurationResources: NSObject {
-   @objc public class var bundle: Bundle {
-         return .module
-   }
-}
+//@objc
+//public class BaseAppConfigurationResources: NSObject {
+//   @objc public class var bundle: Bundle {
+//         return .module
+//   }
+//}
 // swiftlint:enable all
 // swiftformat:enable all

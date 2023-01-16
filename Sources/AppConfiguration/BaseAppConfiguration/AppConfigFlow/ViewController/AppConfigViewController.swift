@@ -19,7 +19,7 @@ class AppConfigViewController: UIViewController {
 	
 	init(viewModel: AppConfigViewModel) {
 		self.viewModel = viewModel
-		super.init(nibName: String(describing: Self.self), bundle: .module)
+		super.init(nibName: String(describing: Self.self), bundle: .BaseAppConfiguration)
 	}
 	
 	required init?(coder: NSCoder) {
