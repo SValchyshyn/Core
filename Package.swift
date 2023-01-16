@@ -178,5 +178,6 @@ let package = Package(
 				.byName(name: "UserDefault")
 			],
 			path: "Tests/UserDefaultTests"),
-    ]
+    ],
+	swiftLanguageVersions: [.v5]
 )
