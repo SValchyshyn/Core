@@ -92,7 +92,8 @@ let package = Package(
 			dependencies: [
 				.product(name: "Logging", package: "swift-log"),
 				"Core",
-				"UserDefault"
+				"UserDefault",
+				"Tracking"
 			],
 			path: "Sources/CoopCore"),
 		.target(
@@ -103,7 +104,8 @@ let package = Package(
 				.product(name: "DifferenceKit", package: "DifferenceKit"),
 				"Core",
 				"CoreNetworking",
-				"CoreNavigation"
+				"CoreNavigation",
+				"Tracking"
 			],
 			path: "Sources/CoreUI/CoreUserInterface"),
 		.target(
@@ -142,6 +144,7 @@ let package = Package(
 			name: "RemoteLog",
 			dependencies: [
 				"Log",
+				"CoreDataManager"
 			],
 			path: "Sources/RemoteLog"),
 		.target(
