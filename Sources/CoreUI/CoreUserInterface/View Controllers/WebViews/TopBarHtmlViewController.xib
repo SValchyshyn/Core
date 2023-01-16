@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TopBarHtmlViewController" customModule="CoreUserInterface" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="rMN-N3-7XQ" id="GeS-yp-8n0"/>
+                <outlet property="topBarView" destination="vyw-Og-1Pq" id="yKR-YO-U3J"/>
+                <outlet property="view" destination="a1W-6g-W9c" id="rOo-hy-u3c"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="a1W-6g-W9c">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vyw-Og-1Pq" customClass="TopBarView" customModule="CoreUserInterface">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="64"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="bgZ-lj-6ma"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="showImage" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rMN-N3-7XQ">
+                    <rect key="frame" x="0.0" y="64" width="414" height="798"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="bt7-7v-poW"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vyw-Og-1Pq" firstAttribute="leading" secondItem="bt7-7v-poW" secondAttribute="leading" id="5CT-Sl-Gt0"/>
+                <constraint firstItem="bt7-7v-poW" firstAttribute="bottom" secondItem="rMN-N3-7XQ" secondAttribute="bottom" id="5MU-Bf-b5B"/>
+                <constraint firstItem="rMN-N3-7XQ" firstAttribute="top" secondItem="vyw-Og-1Pq" secondAttribute="bottom" id="AsL-pG-bmq"/>
+                <constraint firstItem="vyw-Og-1Pq" firstAttribute="trailing" secondItem="bt7-7v-poW" secondAttribute="trailing" id="TKB-hi-9Xn"/>
+                <constraint firstItem="rMN-N3-7XQ" firstAttribute="leading" secondItem="bt7-7v-poW" secondAttribute="leading" id="VeJ-9E-5pq"/>
+                <constraint firstItem="bt7-7v-poW" firstAttribute="trailing" secondItem="rMN-N3-7XQ" secondAttribute="trailing" id="X7W-vZ-5D0"/>
+                <constraint firstItem="vyw-Og-1Pq" firstAttribute="top" secondItem="a1W-6g-W9c" secondAttribute="top" id="ifT-xO-mXC"/>
+            </constraints>
+            <point key="canvasLocation" x="765" y="100"/>
+        </view>
+    </objects>
+</document>

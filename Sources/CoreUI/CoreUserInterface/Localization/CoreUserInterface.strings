@@ -1,0 +1,5 @@
+/* Back button for Toolbar. Accessibility label */
+"toolbar_back_action_accessibility_label" = "Back";
+
+/* Close button for Toolbar. Accessibility label */
+"toolbar_close_action_accessibility_label" = "Close";

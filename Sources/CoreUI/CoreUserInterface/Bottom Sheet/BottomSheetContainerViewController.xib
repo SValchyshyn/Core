@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BottomSheetContainerViewController" customModule="CoreUserInterface" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="t6N-cz-8HR" id="Gmf-Ie-aAk"/>
+                <outlet property="sheetContainerView" destination="Xxb-og-q2s" id="Len-64-5ue"/>
+                <outlet property="sheetHeightConstraint" destination="fdQ-gR-aAA" id="D0h-N8-MlQ"/>
+                <outlet property="tapBlockingView" destination="Jgf-3R-PvD" id="SXI-dL-vUF"/>
+                <outlet property="tapBlockingViewTopConstraint" destination="Oje-5z-bq4" id="nQb-aR-mqX"/>
+                <outlet property="topSheetConstraintToSuperviewTop" destination="6rr-S2-Pg8" id="0rH-oV-gAt"/>
+                <outlet property="view" destination="kde-q0-fLs" id="D04-G3-raT"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="kde-q0-fLs">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t6N-cz-8HR" userLabel="Container View">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <viewLayoutGuide key="safeArea" id="soT-gb-u8s"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jgf-3R-PvD" userLabel="TapBlockingView">
+                    <rect key="frame" x="0.0" y="384" width="414" height="896"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xxb-og-q2s">
+                    <rect key="frame" x="0.0" y="745" width="414" height="772"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="772" id="fdQ-gR-aAA"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="0pc-ha-URQ"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Jgf-3R-PvD" firstAttribute="leading" secondItem="0pc-ha-URQ" secondAttribute="leading" id="0xQ-pZ-qNH"/>
+                <constraint firstItem="Xxb-og-q2s" firstAttribute="top" secondItem="kde-q0-fLs" secondAttribute="top" constant="745" id="6rr-S2-Pg8"/>
+                <constraint firstItem="0pc-ha-URQ" firstAttribute="trailing" secondItem="Jgf-3R-PvD" secondAttribute="trailing" id="9Fs-dj-Gx0"/>
+                <constraint firstItem="Jgf-3R-PvD" firstAttribute="top" secondItem="kde-q0-fLs" secondAttribute="top" constant="384" id="Oje-5z-bq4"/>
+                <constraint firstItem="0pc-ha-URQ" firstAttribute="trailing" secondItem="Xxb-og-q2s" secondAttribute="trailing" id="Tf6-hR-2hV"/>
+                <constraint firstItem="Xxb-og-q2s" firstAttribute="leading" secondItem="0pc-ha-URQ" secondAttribute="leading" id="Tlu-Ou-LwL"/>
+                <constraint firstItem="t6N-cz-8HR" firstAttribute="top" secondItem="kde-q0-fLs" secondAttribute="top" id="XXL-Un-rBc"/>
+                <constraint firstItem="t6N-cz-8HR" firstAttribute="leading" secondItem="0pc-ha-URQ" secondAttribute="leading" id="hVQ-r1-VYj"/>
+                <constraint firstItem="0pc-ha-URQ" firstAttribute="trailing" secondItem="t6N-cz-8HR" secondAttribute="trailing" id="mOt-Y4-4yi"/>
+                <constraint firstAttribute="bottom" secondItem="t6N-cz-8HR" secondAttribute="bottom" id="qwI-nC-3DL"/>
+                <constraint firstItem="Jgf-3R-PvD" firstAttribute="height" secondItem="kde-q0-fLs" secondAttribute="height" id="zdY-r2-QxG"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="153.34821428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

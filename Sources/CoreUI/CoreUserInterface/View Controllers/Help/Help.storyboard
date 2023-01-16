@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--HelpHTML View Controller-->
+        <scene sceneID="yeR-rO-wCq">
+            <objects>
+                <viewController storyboardIdentifier="HelpHTMLViewController" hidesBottomBarWhenPushed="YES" id="bmF-9p-ywE" customClass="HelpHTMLViewController" customModule="CoreUserInterface" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wrp-hz-htu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QNX-Vn-MnY">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qfw-mw-jvd" customClass="CloseButton" customModule="CoreUserInterface" customModuleProvider="target">
+                                <rect key="frame" x="374" y="44" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="SF6-x5-rIu"/>
+                                    <constraint firstAttribute="width" constant="40" id="YF0-pP-i4U"/>
+                                </constraints>
+                                <color key="tintColor" red="0.23137254900000001" green="0.22352941179999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="circleColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="0.85999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="closeAction:" destination="bmF-9p-ywE" eventType="touchUpInside" id="Y7y-uB-UWx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F0f-QL-mck" customClass="CloseButton" customModule="CoreUserInterface" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Wxe-Uw-n0Z"/>
+                                    <constraint firstAttribute="width" constant="40" id="zYw-Sy-Y10"/>
+                                </constraints>
+                                <color key="tintColor" red="0.23137254900000001" green="0.22352941179999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="gfx_back_dark"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="circleColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="0.85999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="closeAction:" destination="bmF-9p-ywE" eventType="touchUpInside" id="nmg-P0-cJz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ae1-fh-3LL"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <accessibility key="accessibilityConfiguration" identifier="HelpHTMLViewController">
+                            <bool key="isElement" value="YES"/>
+                        </accessibility>
+                        <constraints>
+                            <constraint firstItem="QNX-Vn-MnY" firstAttribute="leading" secondItem="Ae1-fh-3LL" secondAttribute="leading" id="Ot6-gT-fdH"/>
+                            <constraint firstItem="qfw-mw-jvd" firstAttribute="top" secondItem="Ae1-fh-3LL" secondAttribute="top" id="ShX-Hw-R7V"/>
+                            <constraint firstItem="F0f-QL-mck" firstAttribute="top" secondItem="Ae1-fh-3LL" secondAttribute="top" id="XQP-SP-9HR"/>
+                            <constraint firstItem="Ae1-fh-3LL" firstAttribute="trailing" secondItem="qfw-mw-jvd" secondAttribute="trailing" id="auG-Ia-xr0"/>
+                            <constraint firstItem="F0f-QL-mck" firstAttribute="leading" secondItem="Ae1-fh-3LL" secondAttribute="leading" id="cz1-EA-YVF"/>
+                            <constraint firstItem="Ae1-fh-3LL" firstAttribute="trailing" secondItem="QNX-Vn-MnY" secondAttribute="trailing" id="dhV-q7-d8x"/>
+                            <constraint firstItem="QNX-Vn-MnY" firstAttribute="top" secondItem="Wrp-hz-htu" secondAttribute="top" id="gLT-Mj-MZK"/>
+                            <constraint firstAttribute="bottom" secondItem="QNX-Vn-MnY" secondAttribute="bottom" id="k0e-Tn-6DZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="F0f-QL-mck" id="Pov-4Z-eKK"/>
+                        <outlet property="closeButton" destination="qfw-mw-jvd" id="JfJ-pS-YeE"/>
+                        <outlet property="containerView" destination="QNX-Vn-MnY" id="34Y-GF-HuA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2mz-bJ-Zin" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2431" y="-87"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="F0f-QL-mck">
+            <size key="intrinsicContentSize" width="10" height="22"/>
+        </designable>
+        <designable name="qfw-mw-jvd">
+            <size key="intrinsicContentSize" width="30" height="34"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="gfx_back_dark" width="10" height="16"/>
+    </resources>
+</document>

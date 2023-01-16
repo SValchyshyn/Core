@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AppConfigViewController" customModule="BaseAppConfiguration" customModuleProvider="target">
+            <connections>
+                <outlet property="appConfigVersionLabel" destination="6pX-8h-EM2" id="Gl1-Z7-1nw"/>
+                <outlet property="baseURLControl" destination="Iw6-dt-Wnt" id="MhW-FW-qwh"/>
+                <outlet property="view" destination="QRc-Kh-bzk" id="4RG-F3-jHj"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="QRc-Kh-bzk">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Base URL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TsI-A5-eDG">
+                    <rect key="frame" x="16" y="92" width="382" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Iw6-dt-Wnt">
+                    <rect key="frame" x="16" y="128" width="382" height="32"/>
+                    <segments>
+                        <segment title="First"/>
+                        <segment title="Second"/>
+                    </segments>
+                </segmentedControl>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="251" text="App config version" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ta-yy-c0b">
+                    <rect key="frame" x="16" y="191" width="143" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZ3-Fp-1ly">
+                    <rect key="frame" x="16" y="228" width="161" height="30"/>
+                    <color key="backgroundColor" systemColor="linkColor"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Reset app config cache">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="resetAppConfig" destination="-1" eventType="touchUpInside" id="UHa-Xj-qPO"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6pX-8h-EM2">
+                    <rect key="frame" x="175" y="191" width="223" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="close" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8Y-Zp-ahg">
+                    <rect key="frame" x="357" y="60" width="41" height="32"/>
+                    <color key="tintColor" red="0.070588235289999995" green="0.074509803920000006" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
+                    <buttonConfiguration key="configuration" style="plain"/>
+                    <connections>
+                        <action selector="close" destination="-1" eventType="touchUpInside" id="0Uq-qZ-M9e"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZ9-3R-x6y" userLabel="Clear all data">
+                    <rect key="frame" x="16" y="274" width="90" height="30"/>
+                    <color key="backgroundColor" systemColor="linkColor"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Clear all data">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="clearAllData:" destination="-1" eventType="touchUpInside" id="kDF-z4-ZfS"/>
+                        <action selector="resetAppConfig" destination="-1" eventType="touchUpInside" id="R0L-4B-iof"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vxD-4h-md6"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="I8Y-Zp-ahg" firstAttribute="top" secondItem="vxD-4h-md6" secondAttribute="top" constant="16" id="1v7-kb-7BN"/>
+                <constraint firstItem="0ta-yy-c0b" firstAttribute="top" secondItem="Iw6-dt-Wnt" secondAttribute="bottom" constant="32" id="3JI-UQ-NMt"/>
+                <constraint firstItem="WZ3-Fp-1ly" firstAttribute="top" secondItem="0ta-yy-c0b" secondAttribute="bottom" constant="16" id="DwI-U5-kg5"/>
+                <constraint firstItem="WZ3-Fp-1ly" firstAttribute="leading" secondItem="vxD-4h-md6" secondAttribute="leading" constant="16" id="ES5-1r-EhP"/>
+                <constraint firstItem="TsI-A5-eDG" firstAttribute="top" secondItem="I8Y-Zp-ahg" secondAttribute="bottom" id="GTf-Kp-crH"/>
+                <constraint firstItem="6pX-8h-EM2" firstAttribute="leading" secondItem="0ta-yy-c0b" secondAttribute="trailing" constant="16" id="IA5-UO-iyZ"/>
+                <constraint firstItem="Iw6-dt-Wnt" firstAttribute="leading" secondItem="vxD-4h-md6" secondAttribute="leading" constant="16" id="JTH-Wa-RI9"/>
+                <constraint firstItem="6pX-8h-EM2" firstAttribute="top" secondItem="Iw6-dt-Wnt" secondAttribute="bottom" constant="32" id="Thc-9s-xZ4"/>
+                <constraint firstItem="vxD-4h-md6" firstAttribute="trailing" secondItem="6pX-8h-EM2" secondAttribute="trailing" constant="16" id="b2o-yI-2QX"/>
+                <constraint firstItem="0ta-yy-c0b" firstAttribute="leading" secondItem="vxD-4h-md6" secondAttribute="leading" constant="16" id="ead-AA-ZTq"/>
+                <constraint firstItem="vxD-4h-md6" firstAttribute="trailing" secondItem="I8Y-Zp-ahg" secondAttribute="trailing" constant="16" id="emF-Dx-DQb"/>
+                <constraint firstItem="RZ9-3R-x6y" firstAttribute="top" secondItem="WZ3-Fp-1ly" secondAttribute="bottom" constant="16" id="f1g-rP-gSM"/>
+                <constraint firstItem="vxD-4h-md6" firstAttribute="trailing" secondItem="TsI-A5-eDG" secondAttribute="trailing" constant="16" id="iAo-wL-Daa"/>
+                <constraint firstItem="RZ9-3R-x6y" firstAttribute="leading" secondItem="vxD-4h-md6" secondAttribute="leading" constant="16" id="mB4-Op-1PF"/>
+                <constraint firstItem="TsI-A5-eDG" firstAttribute="leading" secondItem="vxD-4h-md6" secondAttribute="leading" constant="16" id="p1r-wk-jbM"/>
+                <constraint firstItem="vxD-4h-md6" firstAttribute="trailing" secondItem="Iw6-dt-Wnt" secondAttribute="trailing" constant="16" id="rnb-An-DAy"/>
+                <constraint firstItem="Iw6-dt-Wnt" firstAttribute="top" secondItem="TsI-A5-eDG" secondAttribute="bottom" constant="15" id="v8b-38-e65"/>
+            </constraints>
+            <point key="canvasLocation" x="181" y="148"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

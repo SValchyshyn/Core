@@ -1,0 +1,28 @@
+"biometric_auth_prompt_title" = "Approve";
+
+"biometric_auth_use_pin" = "Use PIN code";
+
+/* Message for Face ID alert */
+"pevc_face_id_alert_message" = "Do you want to use Face ID from now on?";
+
+/* Title for Face ID alert */
+"pevc_face_id_alert_title" = "Face ID";
+
+/* Text for Face ID usage reason shown in the alert */
+"pevc_face_reason_confirm" = "Confirm payment with Face ID";
+
+/* Text for Face ID usage reason shown in the alert */
+"pevc_face_reason_use" = "Confirm using Face ID for payment";
+
+/* Message for Touch ID alert */
+"pevc_touch_id_alert_message" = "Do you want to use Touch ID from now on?";
+
+/* Title for Touch ID alert */
+"pevc_touch_id_alert_title" = "Touch id";
+
+/* Text for Touch ID usage reason shown in the alert */
+"pevc_touch_reason_confirm" = "Accept payment using touch id";
+
+/* Text for use Touch ID to confirm payment */
+"pevc_touch_reason_use" = "Confirm the usage of touch id for payments";
+
