@@ -1,0 +1,12 @@
+/* Enable camera permission on AuthScreen action */
+"auth_scanner_camera_permission_go_to_settings" = "Go To Settings";
+
+/* Text to enable camera on AuthScanner screen */
+"auth_scanner_camera_permission_text" = "The camera is used to scan your loyalty card information";
+
+/* Description text for AuthScanner screen */
+"auth_scanner_scan_description" = "Scan your loyalty card";
+
+/* Title for AuthScanner screen */
+"auth_scanner_screen_title" = "Sign Up";
+

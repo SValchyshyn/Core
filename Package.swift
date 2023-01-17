@@ -26,7 +26,8 @@ let package = Package(
 					  "DefaultAppConfiguration"]),
 		.library(
 			name: "Authentication",
-			targets: ["AuthenticationData",
+			targets: ["Authentication",
+					  "AuthenticationData",
 					  "AuthenticationDomain"]),
 		.library(
 			name: "Stores",
@@ -53,6 +54,21 @@ let package = Package(
 				"Log"
 			],
 			path: "Sources/Stores/Stores"),
+		.target(
+			name: "Authentication",
+			dependencies: [
+				"AuthenticationDomain",
+				"AuthenticationData",
+				"CoreUserInterface",
+				"Core",
+				"Log",
+				"CoopCore",
+				"DefaultAppConfiguration"
+			],
+			path: "Sources/Authentication/Authentication",
+			resources: [
+				.process("Resources")
+			]),
 		.target(
 			name: "AuthenticationDomain",
 			dependencies: [
